@@ -1,0 +1,46 @@
+.hero {
+    background-image:    url(../img/kcDarkGrey.png);
+    padding-top:         40vh; /* extra padding top for menu */
+    padding-bottom:      25vh;
+    background-size:     cover;
+    background-position: center;
+    background-repeat:   no-repeat;
+}
+
+.drop-shadow{
+    text-shadow: 5px 5px 5px black;
+}
+
+.brand {
+    padding: 0px;
+}
+
+.section-pad {
+    padding-top:    10vh;
+    padding-bottom: 10vh;
+}
+
+.hero-big-text {
+    font-size: 5vwmax;
+}
+
+.hero-small-text {
+    font-size: 1vwmax;
+}
+
+.pic-carousel{
+    max-width:      60vw;
+}
+
+.greyanimate{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -moz-filter:    grayscale(100%);
+    filter:         grayscale(100%);
+    transition:     all 0.5s ease;
+}
+
+.greyanimate:hover{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    -moz-filter:    grayscale(0%);
+    filter:         grayscale(0%);  
+}
